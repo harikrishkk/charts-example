@@ -11,3 +11,4 @@ prime ng  - needs 14+ / peer dependency resolved
 
 ng2-charts
 https://www.positronx.io/angular-chart-js-tutorial-with-ng2-charts-examples/
+Working: https://github.com/scttcper/ngx-chartjs
