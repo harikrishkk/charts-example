@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as Highcharts from 'highcharts';
 import type { ChartData, ChartOptions } from 'chart.js';
 @Component({
   selector: 'app-root',
@@ -9,13 +8,6 @@ import type { ChartData, ChartOptions } from 'chart.js';
 export class AppComponent {
   title = 'charts-example';
   data: any;
-  Highcharts: typeof Highcharts = Highcharts;
-  chartOptions: Highcharts.Options = {
-    series: [{
-      data: [1, 2, 3],
-      type: 'line'
-    }]
-  };
 
   data1: ChartData = {
     labels: ['Botnet', 'Malware', 'Phishing', 'Spyware'],
@@ -44,7 +36,7 @@ export class AppComponent {
   };
 
 
-  options: ChartOptions = {
+  options1: ChartOptions = {
     responsive: true,
     plugins: {
       legend: {
